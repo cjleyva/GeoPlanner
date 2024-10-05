@@ -1,0 +1,53 @@
+.table_pedidos {
+    border: 1px solid #bfbfbf;
+    width: 100%;
+}
+
+.td {
+    border: 1px solid #bfbfbf;
+    text-align: center;
+}
+
+.center {
+    background-color: #EFEFEF;
+}
+
+.th {
+    border: 1px solid #bfbfbf;
+    text-align: center;
+}
+
+.sub_header {
+    color: #0072C6;
+}
+
+.border {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.alinear {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.color {
+    color: #004366 !important;
+}
+
+.color_1 {
+    color: #007BFF !important;
+}

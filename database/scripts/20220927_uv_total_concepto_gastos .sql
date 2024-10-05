@@ -1,0 +1,1 @@
+CREATE VIEW uv_total_concepto_gastos AS SELECT lgd.id_legalizacion_gasto, p.texto, SUM(lgd.valor_gasto) as total_concepto FROM legalizacion_gastos_detalles lgd INNER join parametricas p ON lgd.id_param_concepto_gasto = p.id WHERE lgd.deleted_at is null GROUP BY lgd.id_legalizacion_gasto, p.texto

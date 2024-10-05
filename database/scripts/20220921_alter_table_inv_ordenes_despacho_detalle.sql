@@ -1,0 +1,1 @@
+ALTER TABLE `inv_ordenes_despacho_detalles` ADD `id_detalle_pedido` BIGINT(20) UNSIGNED NOT NULL AFTER `id_producto`; 

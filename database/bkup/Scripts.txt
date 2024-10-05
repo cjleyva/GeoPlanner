@@ -1,0 +1,19 @@
+//crear un permiso 
+//ejecutarlo con artisan tinker
+use Spatie\Permission\Models\Permission;
+Permission::create(['name' => 'administracion.roles.ver']);
+Permission::create(['name' => 'administracion.roles.crear']);
+Permission::create(['name' => 'administracion.roles.eliminar']);
+Permission::create(['name' => 'administracion.roles.editar']);
+
+Permission::create(['name' => 'administracion.roles.permisos']);
+Permission::create(['name' => 'administracion.usuarios.ver']);
+Permission::create(['name' => 'administracion.usuarios.crear']);
+Permission::create(['name' => 'administracion.usuarios.editar']);
+Permission::create(['name' => 'administracion.usuarios.eliminar']);
+
+
+Permission::create(['name' => 'administracion.usuarios.cambiarcontraseña']);
+
+
+

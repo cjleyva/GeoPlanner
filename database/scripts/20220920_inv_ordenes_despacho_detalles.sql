@@ -1,0 +1,2 @@
+ALTER TABLE `inv_ordenes_despacho_detalles` CHANGE `cantidad` `cantidad_despachada` DECIMAL(18,2) NOT NULL COMMENT 'Cantidad del producto';
+ALTER TABLE `inv_ordenes_despacho_detalles` ADD `bonificacion_despachada` DECIMAL(18,2) NOT NULL COMMENT 'Bonificacion del producto' AFTER `cantidad`, ADD `total_cantidad_despachada` DECIMAL(18.2) NOT NULL COMMENT 'Total entre cantidad y bonificacion' AFTER `bonificacion_despachada`;

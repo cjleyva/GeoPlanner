@@ -1,0 +1,1 @@
+ALTER TABLE `inv_pedidos` ADD `subtotal` DECIMAL(18,6) NOT NULL AFTER `id_param_estado`, ADD `impuesto` DECIMAL(18,6) NOT NULL AFTER `subtotal`, ADD `total` DECIMAL(18,6) NOT NULL AFTER `impuesto`; 

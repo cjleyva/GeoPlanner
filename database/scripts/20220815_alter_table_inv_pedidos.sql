@@ -1,0 +1,2 @@
+ALTER TABLE `inv_pedidos` CHANGE `observaciones` `observaciones_pedido` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Observaciones adicionales sobre la entrega del pedido'; 
+ALTER TABLE `inv_pedidos` ADD `observaciones_autorizacion` TEXT NULL AFTER `observaciones_pedido`; 

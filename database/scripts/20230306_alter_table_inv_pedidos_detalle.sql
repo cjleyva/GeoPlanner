@@ -1,0 +1,1 @@
+ALTER TABLE `inv_pedidos_detalle` ADD `precio_descuento_unitario` DECIMAL(18.2) NOT NULL DEFAULT '0.00' COMMENT 'descuento de precio unitario ' AFTER `descuento`;

@@ -1,0 +1,5 @@
+INSERT INTO `parametricas` (`id`, `categoria`, `valor`, `texto`, `descripcion`, `orden`, `estado`, `created_at`, `updated_at`, `deleted_at`, `created_by`, `updated_by`, `deleted_by`)
+ VALUES (NULL, 'solicitud_tiquetes_hotel_param_estado', '1', 'En registro', 'Primer estado de solicitud de tiquetes y hotel', '100', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL),
+  (NULL, 'solicitud_tiquetes_hotel_param_estado', '2', 'Pendiente autorizar', 'Segundo estado de la solicitud de tiquetes y hotel', '200', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL),
+   (NULL, 'solicitud_tiquetes_hotel_param_estado', '3', 'Autorizado', 'Solicitud de tiquetes y hotel autorizado', '300', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL),
+    (NULL, 'solicitud_tiquetes_hotel_param_estado', '4', 'Rechazado', 'Solicitud de tiquetes y hotel rechazado o no autorizado', '400', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL);

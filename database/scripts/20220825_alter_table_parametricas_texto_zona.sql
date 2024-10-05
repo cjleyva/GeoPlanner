@@ -1,0 +1,1 @@
+UPDATE `parametricas` SET `texto` = 'Colombia', `updated_at` = NULL, `deleted_at` = NULL WHERE `parametricas`.`id` = 6;

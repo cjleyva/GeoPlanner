@@ -1,0 +1,1 @@
+INSERT INTO `parametricas` (`id`, `categoria`, `valor`, `texto`, `descripcion`, `orden`, `estado`, `created_at`, `updated_at`, `deleted_at`, `created_by`, `updated_by`, `deleted_by`) VALUES (NULL, 'pedidos_param_no_dias_facturas', '1', 'No aplica', 'No aplica dias por el pago es de contado', '100', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL);

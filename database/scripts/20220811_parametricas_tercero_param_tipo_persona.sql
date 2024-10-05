@@ -1,0 +1,3 @@
+INSERT INTO `parametricas` (`id`, `categoria`, `valor`, `texto`, `descripcion`, `orden`, `estado`, `created_at`, `updated_at`, `deleted_at`, `created_by`, `updated_by`, `deleted_by`) VALUES (NULL, 'tercero_param_tipo_persona', '1', 'Persona Natural', 'Tipo de persona natural', '100', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL),
+
+ (NULL, 'tercero_param_tipo_persona', '2', 'Persona Jurídica', 'Tipo de persona jurídica', '200', '1', CURRENT_TIMESTAMP, NULL, NULL, '0', NULL, NULL);

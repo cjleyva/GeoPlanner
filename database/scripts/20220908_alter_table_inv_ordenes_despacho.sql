@@ -1,0 +1,1 @@
+ALTER TABLE `inv_ordenes_despacho` ADD `observaciones_despacho` TEXT NULL COMMENT 'Observaciones del despacho' AFTER `id_condicion_entrega`;

@@ -1,0 +1,2 @@
+ALTER TABLE `inv_productos` CHANGE `precio_por_presentacion` `precio_por_presentacion_dealer` DECIMAL(28,6) NOT NULL COMMENT 'precio de presentacion por dealer';
+ALTER TABLE `inv_productos` ADD `precion_presentacion_distribuidor` DECIMAL(28,6) NOT NULL COMMENT 'precio de presentación por distribuidor' AFTER `precio_por_presentacion`;

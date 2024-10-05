@@ -1,0 +1,1 @@
+ALTER TABLE `inv_pedidos` ADD `id_para_tipo_cliente` BIGINT(20) UNSIGNED NOT NULL COMMENT 'Tipo de clientes distribuidor o dealer' AFTER `id_tercero`;

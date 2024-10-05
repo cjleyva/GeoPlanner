@@ -1,0 +1,2 @@
+ALTER TABLE `legalizacion_gastos` CHANGE `total_legalizacion` `total_legalizacion` DECIMAL(18,2) NULL DEFAULT NULL COMMENT 'El total de la legalizacion del gasto';
+ALTER TABLE `legalizacion_gastos` CHANGE `concepto_legalizacion` `concepto_legalizacion` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL COMMENT 'Concepto por el cual se hace la legalizacion del gasto';
